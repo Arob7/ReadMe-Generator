@@ -1,6 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${data.inputBadgeCode}
   
 Table of contents
 =================
@@ -42,12 +43,17 @@ ${data.test}
 
 Questions
 ===========
+Please reach me at any of the contacts below if you have any questions:
+
+Github: ${data.username} (https://github.com/Arob7)
+
+Email: ${data.email}
 
 `;
 }
 // ${renderBadge(data.license)}
-function renderBadge(license) {
-  //if license === this than return badge for that license
-}
+// function renderBadge(license) {
+//if license === this than return badge for that license
+// }
 
 module.exports = generateMarkdown;

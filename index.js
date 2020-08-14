@@ -31,10 +31,20 @@ const questions = [
     message: "Contribution Guidelines",
   },
   {
-    type: "list",
+    type: "checkbox",
     name: "license",
     message: "Choose a license.",
-    choices: ["MIT", "Apache", "GPL"],
+    choices: ["MIT", "Apache", "Perl"],
+  },
+  {
+    type: "list",
+    name: "inputBadgeCode",
+    message: "Choose badge for License",
+    choices: [
+      `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`,
+      `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`,
+      `[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`,
+    ],
   },
   {
     type: "input",
@@ -43,8 +53,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "inputBadgeCode",
-    message: "Badge Code",
+    name: "username",
+    message: "What is your Github username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
   },
 ];
 
