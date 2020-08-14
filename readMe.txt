@@ -1,1 +1,1 @@
-This line should show up in the console
+example text
