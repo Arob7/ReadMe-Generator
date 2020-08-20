@@ -19,7 +19,7 @@ Description
 
 This is a node.js app that will take the user's input and create a quick and good readme.md file for repository.
 
-Link to video: [![Demo video]({https://drive.google.com/file/d/1D-cSqCnGGaUqAdzXa2ReG9hNTrARL684/view} "Link Title")
+Link to video:({https://drive.google.com/file/d/1D-cSqCnGGaUqAdzXa2ReG9hNTrARL684/view} 
 
 Installation
 ===========
